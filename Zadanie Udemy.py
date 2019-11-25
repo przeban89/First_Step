@@ -1,5 +1,5 @@
 """ Wykonam ćwiczenie dodawania wybranego przedziału liczby
-od 0 do wybranej przez użytkownika, plus program zwróci wynik"""
+od 0 do wybranej przez użytkownika, plus zwróci wynik"""
 
 while(True):
     liczba = int(input("Podaj liczbę: "))
