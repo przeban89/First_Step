@@ -4,4 +4,4 @@ while(True):
     o = float(input("Podaj oprocentowanie: "))
     m = float(input("Podaj liczbę miesięcy kredytowania: "))
     x = Definition.splata(k, o, m)
-    print(round(x, 2))
+    print("Kwota kapitałowa do spłaty: ", round(x, 2))
