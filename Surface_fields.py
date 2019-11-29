@@ -1,9 +1,6 @@
 import Definition
 from enum import IntEnum
-
 Menu_Figury = IntEnum('Menu_Figury', 'Koło Trapez Prostokąt Trójkąt Kwadrat Walec')
-
-
 while(True):
     wybor = int(input(""" Wybierz jedną z poniższych opcji:
     1. Pole koła
