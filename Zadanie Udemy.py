@@ -1,6 +1,7 @@
 
-""" Wykonam ćwiczenie dodawania wybranego przedziału liczby
-od 0 do wybranej przez użytkownika, plus program zwróci wynik"""
+""" 1. Wykonam ćwiczenie dodawania wybranego przedziału liczby
+od 0 do wybranej przez liczby przez użytkownika, zwróć wynik.
+    2. Sprawdź, która metoda jest najszybsza"""
 import time
 
 def sumuj_do(liczba):
@@ -40,7 +41,6 @@ print(function_performance(sumuj_do5, 500, 500))
 
 setContainer = {i for i in range(500)}
 listContainer = [i for i in range(500)]
-
 
 def is_element_in(value, container):
     if value in container:
