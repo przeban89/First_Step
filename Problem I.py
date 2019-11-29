@@ -1,3 +1,5 @@
+#simple rank, which the person take more points
+
 a_triplet = map(int, input().split())
 b_triplet = map(int, input().split())
 alice_points = 0
