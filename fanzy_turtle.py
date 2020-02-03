@@ -2,7 +2,7 @@ import turtle
 
 qazi_turtle = turtle.Turtle()
 qazi_turtle.speed(0)
-qazi_turtle.color("#285078", "#a0c8f0")
+qazi_turtle.color()
 def square(f, r):
     for i in range(4):
         qazi_turtle.forward(f)
@@ -17,7 +17,7 @@ x = 0
 while x < 10:
     circle(11, f, 90)
     x += 1
-    f += 15
+    f += 5
 
 """
 x = 0

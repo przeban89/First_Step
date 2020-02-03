@@ -16,11 +16,11 @@ print(calendar.calendar(2020, w=3))
 is_leap = calendar.isleap(2020)
 print(is_leap)
 
-how_many_leap_days = calendar.leapdays(2019,2020)
+how_many_leap_days = calendar.leapdays(2010,2020)
 print(how_many_leap_days)
 
 l = "hello world"
-print(l [:5])
+print(l [10::-1])
 data = 'xbox360 | 150 | New'
 print(data[9:data.index('|')])
 product = data[:data.index('|')]
