@@ -47,12 +47,19 @@ def handle_turn(player):
  4 | 5 | 6 
  7 | 8 | 9 
 Chose a posution from 1-9: """)
+    valid = False
+    while not valid:
 
-    while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
-        position = input("Invalid input. Choose a position 1-9:")
 
+        while position not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
+            position = input("Invalid input. Choose a position 1-9:")
 
-    position = int(position) - 1
+        position = int(position) - 1
+
+        if board[position] == "-":
+            valid = True
+        else:
+            print("You can't go there. Go again.")
 
     board[position] = player
 
