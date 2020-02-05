@@ -20,13 +20,20 @@ how_many_leap_days = calendar.leapdays(2010,2020)
 print(how_many_leap_days)
 
 l = "hello world"
-print(l [10::-1])
+print(l[::-1])
 data = 'xbox360 | 150 | New'
+"""
 print(data[9:data.index('|')])
 product = data[:data.index('|')]
-price = data[data.index('| '):data.index('| ')]
+#price = data[data.index('| '):data.index('| ')]
 price = data[data.index('|')+2:data.rindex('|')]
 condition = data[data.rindex('|')+1:]
 print(product, price, condition)
+"""
 word = 'hello'
-print(word[4::-1])
+print(word[::-1])
+details = data.split(' | ')
+product = details[0]
+price = details[1]
+condition = details[2]
+print(product, price, condition)
