@@ -32,8 +32,11 @@ print(product, price, condition)
 """
 word = 'hello'
 print(word[::-1])
-details = data.split(' | ')
+"""details = data.split(' | ')
 product = details[0]
 price = details[1]
 condition = details[2]
 print(product, price, condition)
+product, price, condition = data.split(" | ")
+print(product, price, condition)
+"""
