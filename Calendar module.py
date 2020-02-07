@@ -29,10 +29,9 @@ product = data[:data.index('|')]
 price = data[data.index('|')+2:data.rindex('|')]
 condition = data[data.rindex('|')+1:]
 print(product, price, condition)
-"""
 word = 'hello'
 print(word[::-1])
-"""details = data.split(' | ')
+details = data.split(' | ')
 product = details[0]
 price = details[1]
 condition = details[2]
@@ -40,3 +39,13 @@ print(product, price, condition)
 product, price, condition = data.split(" | ")
 print(product, price, condition)
 """
+
+phone_book = {
+            'patric': ['793-050-211', 'p.b@gmail.com'],
+            'tim': ['888-545-789', 't.b@gmail.com'],
+            'carline': ['546-456-456', 'c.b@gmail.com']
+            }
+def phone():
+    i for i in phone_book:
+        return print(i)
+phone()
