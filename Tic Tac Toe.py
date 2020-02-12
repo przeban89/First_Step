@@ -46,7 +46,7 @@ def handle_turn(player):
  1 | 2 | 3 
  4 | 5 | 6 
  7 | 8 | 9 
-Chose a posution from 1-9: """)
+Chose a position from 1-9: """)
     valid = False
     while not valid:
 
