@@ -1,17 +1,17 @@
-from enum import IntEnum
 from random import randint
-
-# dict with selected option
-
 
 play = True
 while play:
+    # dict with selected option
     choice = {1: 'Rock', 2: 'Paper', 3: 'Scissors'}
     computer = choice.get(randint(1, 3))
+    #count setup
     player_point = 0
     computer_point = 0
+
     while (player_point < 3) and (computer_point < 3):
         try:
+            #Input with player decision (1-3)
             userInput = int(input('1. Rock, 2. Paper, 3. Scissors? You play to 3 points: '))
             player = choice.get(userInput)
 
@@ -58,8 +58,3 @@ while play:
             print("Let's try again")
     except ValueError:
         print('Non-numeric data found in the file.')
-
-
-
-# player = False
-
