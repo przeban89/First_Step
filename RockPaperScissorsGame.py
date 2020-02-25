@@ -46,10 +46,10 @@ while play:
             print('Non-numeric data found in the file. Try again!')
         computer = choice.get(randint(1, 3))
     if player_point == 3:
-        print(('Player WIN! Congratulatuon!'))
+        print(('Player WIN! Congratulation!'))
     else:
         print('Computers Win! You are loser!')
-    again = str(input('Do you want try again?, tap anythink to restart or n = if you wont break the game?: '))
+    again = str(input('Do you want try again?, tap anythink to restart or n = if you want break the game?: '))
     try:
         if again == 'n':
             print("Thanks for playing the game :) ")
